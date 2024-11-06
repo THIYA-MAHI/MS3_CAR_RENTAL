@@ -1,0 +1,65 @@
+
+.bg-image{
+    height:100% ;
+    width: 100%;
+}
+
+
+.img {
+    position: fixed;
+    top: 0; 
+    width: 100%;
+
+    background: transparent;
+    /* opacity: 0.8; Adjust value for desired transparency */
+}
+.nav1{
+    text-align: center;
+    position:relative;
+    bottom: 0; 
+    width: 100%;
+    z-index: 1000; 
+    background-color: rgb(50, 50, 100);
+}
+
+
+.navbar.bg-body-tertiary {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  }
+  
+
+  .navbar-nav .nav-link {
+    margin-right: 1rem; /* Space between links */
+  }
+  
+
+  .navbar-brand h1 span {
+    font-size: 1.5rem; /* Adjust font size if necessary */
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    height: 500px;
+  }
+  
+  .bg-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .center-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: transparent;
+    color: green;
+    cursor: pointer;
+    
+  }
+  

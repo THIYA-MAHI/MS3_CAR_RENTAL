@@ -1,0 +1,32 @@
+<H1>FIND THE BEST CAR FOR YOU</H1>
+<p>Welcome To The CarRental Service , where convenience meets comfort! Whether you
+  need a vehicle for a day, a week, or longer, our diverse fleet offers something for every journey. Experience
+  seamless booking, competitive rates, and top-notch customer service with us today!</p>
+
+<!-- <div  *ngFor="let image of images"class="card" style="width: 18rem;" >
+
+  <div  class="card-container">
+    <div  class="image-card">
+      <img [src]="image.url" [alt]="image.title">
+      
+      <div>{{image.title}}</div>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="container text-center">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+  <!-- <div class="row"> -->
+    
+    <div  *ngFor="let image of images"class="card" style="width: 18rem;" >
+
+      <div  class="card-container">
+        <div  class="image-card">
+          <img [src]="image.url" [alt]="image.title">
+          
+          <div>{{image.title}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
